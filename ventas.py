@@ -8,6 +8,6 @@ def calcular_total(precio, descuento=0):
     return precio - monto_descuento
 
 
-total = calcular_total(100, 0.10)
+total = calcular_total(100, 0.15)
 
 print(f"Total de venta: S/ {total:.2f}")
